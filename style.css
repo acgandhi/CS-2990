@@ -1,0 +1,66 @@
+body {
+    font-family: Roboto, Helvetica, Arial, sans-serif; /* Requirement-2.1 */ 
+    margin: auto;   /* centers element */
+    max-width: 1000px;  /* Requirement-2.7 */
+}
+
+/* NAVIGATION */
+header {
+    max-width: inherit;
+}
+nav {                       /* Requirement-2.A */
+    background-color: #0f1112;  /* Requirement-2.4 */
+    position: fixed;        /* Requirement-2.15 */
+    top: 0px;
+    max-width: inherit;
+    width: 100%;
+}
+nav span {
+    float: left;
+    font-weight: bold;
+}
+nav a {                     /* Requirement-2.F */
+    float: right;           /* Requirement-2.11 */
+
+    text-decoration: none;  /* Requirement-2.2 */
+}
+nav a, span {
+    color: white;           /* Requirement-2.3 */
+    text-align: center; 
+    padding: 20px 18px;     /* Requirement-2.6 */
+}
+nav a:hover {               /* Requirement-2.E */
+    background-color: #4C5459;
+}
+.active-page {              /* Requirement-2.C */
+    background-color: #43592D;
+}
+
+
+/* TEXT ELEMENTS */
+h1, h2 {
+    text-align: center;     /* Requirement-2.B */
+}
+
+#li-robot {
+    list-style: '\1F916';
+}
+#li-drone {
+    list-style: '\1F681';
+}
+#li-detection {
+    list-style: '\270D';
+}
+
+.top-padding-fix {
+    padding-top: 60px;      /* Requirement-2.9 */
+
+}
+
+/* IMAGES */
+#gh-logo {
+    position: relative;
+    left: 6em;
+    z-index: -1;
+    opacity: 20%;
+}

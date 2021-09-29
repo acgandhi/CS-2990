@@ -4,23 +4,27 @@
         <meta charset="utf-8">
         <!-- Requirement-1.A -->
         <title>HW 1 - Amar Gandhi</title>
+        
+        <link rel="stylesheet" href="style.css"> 
     </head>
     <body>
-        <!-- Requirement-1.D -->
-        <nav>
-            <a href="index.html">Homepage</a>
-            <!-- Requirement-1.J -->
-            <a href="hobbies.html">Hobbies</a>
-        </nav>
-        
         <!-- Requirement-1.B -->
         <header>
-            <!-- Requirement-1.F -->
-            <h1>Amar Gandhi</h1>
+            <!-- Requirement-1.D -->
+            <nav>
+                <!-- Requirement-1.F -->
+                <span>Amar Gandhi</span>
+                <a href="index.html" class="active-page">Homepage</a>
+                <!-- Requirement-1.J -->
+                <a href="hobbies.html">Hobbies</a>
+            </nav>
+        
+        
+            
         </header>
         
         <!-- Requirement-1.E -->
-        <section>
+        <section class="top-padding-fix">
             <h2>About me</h2>
             <!-- Requirement-1.G -->
             <p>Hello, my name is Amar! I'm a 2nd year CS student at Cal Poly Pomona.</p>
@@ -30,9 +34,9 @@
             </p>
             <!-- Requirement-1.K -->
             <ul>
-                <li>Run the software subteam of my high school's robotics team.</li>
-                <li>Work on research involving a pheromone based navigation model for drones.</li>
-                <li>Worked as a part of a team to design a pipeline for reliable, real-time detection of small handheld objects in video.</li>
+                <li id="li-robot">Run the software subteam of my high school's robotics team.</li>
+                <li id="li-drone">Work on research involving a pheromone based navigation model for drones.</li>
+                <li id="li-detection">Worked as a part of a team to design a pipeline for reliable, real-time detection of small handheld objects in video.</li>
             </ul>
             <!-- Requirement-1.L -->
             <figure>
@@ -40,13 +44,14 @@
                 <!-- Requirement-1.M -->
                 <figcaption>A photo of myself.</figcaption>
             </figure>
-                    
-            <p>
-                <!-- Requirement-1.H -->
-                <span><img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" width="60" alt="GitHub logo"></span>
+            <div style="height: 0px;">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" width="60" alt="GitHub logo" id="gh-logo">
+            </div>
+            <p>                
                 <!-- Requirement-1.I -->
-                Check out my <a href="www.github.com/acgandhi">GitHub</a> for what I'm working on right now!
+                Check out my <a href="https://www.github.com/acgandhi">GitHub</a> for what I'm working on right now!
             </p>
+            
         </section>
         
         <section>
